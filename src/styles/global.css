@@ -5,8 +5,8 @@
 }
 
 :root {
-  --font-primary: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: "Roboto Mono", Consolas, "Courier New", monospace;
+  --font-primary: wotfardregular, sans-serif;
+  --font-mono: wotfardregular,  monospace;
 
   --text-xs: 0.75rem;
   --text-sm: 0.875rem;
@@ -420,4 +420,104 @@ h3 {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+}
+@font-face {
+    font-family: 'wotfardbold';
+    src: url('/fonts/Wotfard-regular/wotfard-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: 'wotfardextralight';
+    src: url('/fonts/Wotfard-regular/wotfard-extralight-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight';
+    src: url('/fonts/Wotfard-regular/wotfard-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'wotfardmedium';
+    src: url('/fonts/Wotfard-regular/wotfard-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular';
+    src: url('/fonts/Wotfard-regular/wotfard-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold';
+    src: url('/fonts/Wotfard-regular/wotfard-semibold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin';
+    src: url('/fonts/Wotfard-regular/wotfard-thin-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardbold_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-bolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardextralight_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-extralightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-lightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardmedium_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-mediumitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-regularitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold_italic';
+    src: url('/fonts/Wotfard-Italic/wotfard-semibolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin_italic';
+    src: url('/fonts/Wotfard-Italicwotfard-thinitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }

@@ -7,6 +7,28 @@ tags: ["nodejs", "logging", "debugging", "monitoring", "best-practices"]
 
 ## The Importance of Logging
 
+
+---
+import { Image } from 'astro:assets';
+// Since we fixed the tsconfig.json, use the @ alias
+import myImage from '@/assets/arno-moller-lizard.jpg';
+---
+
+<!-- Basic responsive image -->
+<Image 
+  src={myImage} 
+  alt="Lizard photo" 
+  width={800} 
+  height={600} 
+/>
+
+<!-- Or with layout options -->
+<Image 
+  src={myImage} 
+  alt="Full width lizard photo" 
+  layout="full-width" 
+/>
+
 In the labyrinth of modern applications, logs are our digital breadcrumbs - helping us trace the path of execution, debug issues, and understand system behavior. But like any tool, logging is only as good as its implementation. Let's explore how to master the art of logging in Node.js applications.
 
 ## Beyond console.log
