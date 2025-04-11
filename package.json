@@ -11,13 +11,13 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.1.0",
+    "@astrojs/cloudflare": "^12.4.0",
     "@fontsource-variable/geist": "^5.0.1",
     "@fontsource-variable/geist-mono": "^5.0.1",
     "@fontsource/inter": "^5.1.1",
     "@fontsource/roboto-mono": "^5.1.1",
     "@fontsource/source-sans-pro": "^5.1.0",
-    "astro": "^5.1.2"
+    "astro": "^5.6.1"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241230.0",
@@ -25,8 +25,9 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "workerd",
-      "sharp"
+      "esbuild",
+      "sharp",
+      "workerd"
     ]
   }
 }
